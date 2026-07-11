@@ -11,6 +11,10 @@ const ProjectItem = ({
   description,
   repoUrl,
   webUrl,
+  isWebDown,
+  docsUrl,
+  blogUrl,
+  videoUrl,
   period,
   stack,
   markdown,
@@ -36,7 +40,14 @@ const ProjectItem = ({
                 <span>{`${period[0]} - ${period[1]}`}</span>
               </div>
             </div>
-            <Links repoUrl={repoUrl} webUrl={webUrl} />
+            <Links
+              repoUrl={repoUrl}
+              webUrl={webUrl}
+              isWebDown={isWebDown}
+              docsUrl={docsUrl}
+              blogUrl={blogUrl}
+              videoUrl={videoUrl}
+            />
           </div>
         </div>
       </div>
@@ -54,7 +65,18 @@ const ProjectItem = ({
             ))}
           </div>
         </div>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ""}</ReactMarkdown>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          components={{
+            a: ({ href, children }) => (
+              <a href={href} target="_blank" rel="noreferrer">
+                {children}
+              </a>
+            ),
+          }}
+        >
+          {markdown ?? ""}
+        </ReactMarkdown>
       </div>
     </div>
   );

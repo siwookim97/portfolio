@@ -18,6 +18,7 @@ const Contact = ({ information }: Pick<DataProps, "information">) => {
               <ContactValue
                 value={item.href}
                 href={item.isPhone ? `tel:${item.href}` : item.isEmail ? `mailto:${item.href}` : item.href}
+                isLink={!item.isPhone}
               />
             </div>
           </div>

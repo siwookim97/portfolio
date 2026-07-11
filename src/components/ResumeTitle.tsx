@@ -1,9 +1,13 @@
+import HyundaiAutoeverLogo from "@/assets/images/hyundai_autoever.svg";
 import { DataProps } from "@/types";
 
 const ResumeTitle = ({ resumeTitle }: Pick<DataProps, "resumeTitle">) => {
   return (
-    <div className="bg-gradient-to-r from-GRADIENT_FROM via-PRIMARY to-GRADIENT_TO h-2 sticky top-0 md:static md:h-20 flex justify-center items-center">
-      <span className="text-2xl hidden md:block font-semibold text-white">{resumeTitle.title}</span>
+    <div className="sticky top-0 z-10 bg-white dark:bg-BLACK border-b-2 border-solid border-[#00448D] flex justify-between items-center gap-4 px-4 h-14 md:h-20">
+      <span className="text-sm md:text-2xl font-semibold text-BLACK dark:text-white truncate">
+        {resumeTitle.title}
+      </span>
+      <HyundaiAutoeverLogo className="h-5 md:h-8 w-auto shrink-0" />
     </div>
   );
 };

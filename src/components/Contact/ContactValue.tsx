@@ -1,4 +1,8 @@
-const ContactValue = ({ value, href }: { value: string; href: string }) => {
+const ContactValue = ({ value, href, isLink = true }: { value: string; href: string; isLink?: boolean }) => {
+  if (!isLink) {
+    return <span className="text-BLACK dark:text-white">{value}</span>;
+  }
+
   return (
     <a
       target="_blank"

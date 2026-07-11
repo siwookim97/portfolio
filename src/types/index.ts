@@ -21,6 +21,10 @@ export interface ProjectProps {
   description: string;
   repoUrl: string;
   webUrl?: string;
+  isWebDown?: boolean;
+  docsUrl?: string;
+  blogUrl?: string;
+  videoUrl?: string;
   isTeam?: boolean;
   period: string[];
   stack: string[];

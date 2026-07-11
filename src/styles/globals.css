@@ -23,7 +23,7 @@
   }
 
   .markdown a {
-    @apply font-mono bg-GRAY_HEAVY dark:bg-white py-[2px] px-1.5 rounded-md text-xs text-white dark:text-BLACK hover:bg-BLACK dark:hover:bg-GRAY_HEAVY;
+    @apply text-PRIMARY underline underline-offset-2 hover:text-PRIMARY_HEAVY dark:text-PRIMARY_LIGHT dark:hover:text-white;
   }
 
   .markdown h1,

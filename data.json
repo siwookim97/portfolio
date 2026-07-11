@@ -1,6 +1,6 @@
 {
   "resumeTitle": {
-    "title": "Kim Si Woo."
+    "title": "2026년 3분기 현대오토에버 신입사원 채용 포트폴리오 - 김시우"
   },
 
   "information": {
@@ -9,7 +9,7 @@
       { "id": 0, "name": "Blog", "href": "https://gosiwoo.tistory.com" },
       { "id": 1, "name": "Github", "href": "https://github.com/siwookim97" },
       { "id": 2, "name": "Email", "href": "tldn12gh@gmail.com", "isEmail": true },
-      { "id": 3, "name": "Tell", "href": "010-4719-1180", "isPhone": true }
+      { "id": 3, "name": "Phone", "href": "010-4719-1180", "isPhone": true }
     ]
   },
 
@@ -17,7 +17,7 @@
     {
       "id": 0,
       "name": "이팝콘",
-      "position": "Front-end Engineer",
+      "position": "Back-end Engineer",
       "period": ["2024. 01", "now"]
     }
   ],
@@ -25,78 +25,160 @@
   "project": [
     {
       "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "Kotudy",
+      "description": "아동과 청소년의 문해력 향상을 위한 한국어 단어 학습 웹 서비스입니다.\n'나만의 단어장'과 퀴즈 랭킹으로 반복 학습을 유도했습니다.",
+      "repoUrl": "https://github.com/slowStarter-OIDC/Literacy-Improvement-Web",
       "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "period": ["2022. 06", "2022. 08"],
+      "stack": [
+        "Java 8",
+        "Spring Boot 2.5.4",
+        "MySQL 8.0.11",
+        "MyBatis",
+        "Gradle",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "NEXT.js",
+        "Redux",
+        "React Query"
+      ]
     },
     {
       "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "Kotudy 리팩토링",
+      "description": "학부 시절 팀 프로젝트 Kotudy를 처음부터 다시 만드는 개인 프로젝트입니다.\n성능 개선, API 설계, 코드 품질 전반을 스스로 고민하고 적용했습니다.",
+      "docsUrl": "https://siwookim97.github.io/kotudy-refactor/src/main/resources/static/docs/index.html",
+      "blogUrl": "https://gosiwoo.tistory.com/category/Develop/%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%2C%20%EB%82%98%ED%99%80%EB%A1%9C%20%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81",
+      "repoUrl": "https://github.com/siwookim97/kotudy-refactor",
       "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "period": ["2023. 02", "now"],
+      "stack": [
+        "Java 11",
+        "Spring Boot 2.7.14",
+        "MySQL 8.0.11",
+        "Spring Data JPA",
+        "Querydsl",
+        "Ehcache 3",
+        "JWT",
+        "Spring REST Docs",
+        "Mockito",
+        "JUnit5",
+        "Gradle",
+        "H2",
+        "JMeter"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mat.ZIP",
+      "description": "소셜 로그인으로 맛집과 리뷰를 공유하는 플랫폼 서비스입니다.\n배포 자동화 환경 구축부터 운영까지 백엔드 전반을 담당했습니다.",
+      "webUrl": "https://www.matzip.site",
+      "isWebDown": true,
+      "videoUrl": "https://www.youtube.com/watch?v=zzzRpYMdvNs",
+      "repoUrl": "https://github.com/LikeLion-team10/Mat-ZIP",
+      "isTeam": true,
+      "period": ["2023. 06", "2023. 07"],
+      "stack": [
+        "Java 17",
+        "Spring Boot 3.0.12",
+        "MySQL 8.0",
+        "Spring Data JPA",
+        "Gradle",
+        "OAuth 2.0",
+        "Spring Cloud AWS",
+        "Thymeleaf",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AWS EC2",
+        "AWS S3",
+        "Docker",
+        "Jenkins",
+        "Nginx"
+      ]
     }
   ],
 
   "activity": [
     {
       "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
-    }
-  ],
-
-  "education": [
-    {
-      "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "숭실대학교 Pre-스타트업 육성 동아리",
+      "period": ["2018. 03", "2018. 12"],
+      "description": "숭실대학교 창업지원단에서 지원하는 Pre-스타트업 육성 동아리 활동을 통해 창업을 경험했습니다. '반찬가게 로스율을 줄여주는 애플리케이션'을 주제로 Java 안드로이드 환경에서 개발을 진행했으며, 데이터 처리와 서비스 로직을 구현하며 기술적 도전을 경험했습니다. 이 경험을 계기로 백엔드 개발자라는 직업에 매력을 느끼고 Java, Spring Boot 백엔드 개발자로 진로를 결정했습니다."
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
+      "name": "SQLD(SQL 개발자)",
       "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "organizer": "한국데이터산업진흥원"
     },
     {
       "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
+      "name": "TOEIC Speaking IM3",
+      "date": "2025. 08. 30",
       "organizer": "ETS"
+    },
+    {
+      "id": 2,
+      "name": "AWS Certified Solutions Architect - Associat",
+      "date": "2026. 02. 07",
+      "organizer": "AWS"
+    },
+    {
+      "id": 3,
+      "name": "정보처리기사",
+      "date": "2026. 06. 12",
+      "organizer": "한국산업인력공단"
     }
   ],
 
   "award": [
     {
       "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
+      "name": "빅데이터 경진대회 (최우수상)",
+      "date": "2017. 12",
+      "organizer": "숭실대학교",
+      "description": "아두이노를 활용해 SW/HW 공학 설계를 진행했습니다. POV 선풍기를 제작했으며, POV 디스플레이, 앱을 통한 원격 작동, 온도 감지를 통한 On/Off 기능 등을 구현했습니다."
+    },
+    {
+      "id": 1,
+      "name": "IT 대학 소프트웨어 공모전 (은상)",
+      "date": "2021. 09",
+      "organizer": "숭실대학교",
+      "description": "한국어 단어장 학습 플랫폼 웹 서비스를 개발했습니다. Spring Boot 기반의 백엔드 서버에서 개발을 진행했으며, RDB 테이블 설계, 쿼리 작성, CRUD 기능 구현을 맡았습니다."
+    },
+    {
+      "id": 2,
+      "name": "오픈 인프라 개발 경진대회 자유 주제 (장려상)",
+      "date": "2022. 08",
+      "organizer": "(주) manTech",
+      "description": "아동을 위한 한국어 학습 플랫폼 웹 서비스를 애플리케이션 쿠버네티스 통합 관리 솔루션 ACCORDION 환경에서 개발 및 배포했습니다."
+    },
+    {
+      "id": 3,
+      "name": "제 12회 숭실 캡스톤디자인 경진대회 (장려상)",
+      "date": "2022. 09",
+      "organizer": "숭실대학교",
+      "description": "아동을 위한 한국어 학습 플랫폼 웹 서비스를 개발했습니다. Spring Boot 기반의 백엔드 서버에서 개발을 진행했으며, 문장 형태소 분석 기능, OpenAPI를 사용한 단어 검색 기능, RDB 테이블 설계, 쿼리 작성, CRUD 기능 구현을 맡았습니다."
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "name": "숭실대학교 소프트웨어학부",
+      "period": ["2017. 03", "2024. 02"],
+      "description": ""
+    },
+    {
+      "id": 1,
+      "name": "TECHIT 백엔드 스쿨 3기",
+      "period": ["2023. 02", "2023. 07"],
+      "description": "Java, Spring Boot 프레임워크 기반의 백엔드 개발 역량과 웹 프로젝트 경험을 쌓았습니다. Java, Spring Boot, Spring Security, Spring Data JPA, Jenkins, Github Action, TDD 등을 학습했습니다."
     }
   ]
 }

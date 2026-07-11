@@ -19,7 +19,7 @@ export interface ProjectProps {
   id: number;
   name: string;
   description: string;
-  repoUrl: string;
+  repoUrl?: string;
   webUrl?: string;
   isWebDown?: boolean;
   docsUrl?: string;

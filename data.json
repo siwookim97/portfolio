@@ -17,8 +17,9 @@
     {
       "id": 0,
       "name": "이팝콘",
-      "position": "Back-end Engineer",
-      "period": ["2024. 01", "now"]
+      "description": "이커머스 데이터 수집 MSA 모듈과 쿠버네티스 인프라, 모니터링 시스템을 개발/운영했습니다.\npm2에서 쿠버네티스 기반 아키텍처로 전환하고 무중단 배포 환경을 구축했습니다.",
+      "position": "Back-end / Dev-ops Engineer",
+      "period": ["2024. 01", "재직중"]
     }
   ],
 
@@ -52,7 +53,7 @@
       "blogUrl": "https://gosiwoo.tistory.com/category/Develop/%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%2C%20%EB%82%98%ED%99%80%EB%A1%9C%20%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81",
       "repoUrl": "https://github.com/siwookim97/kotudy-refactor",
       "isTeam": false,
-      "period": ["2023. 02", "now"],
+      "period": ["2023. 05", "2023. 10"],
       "stack": [
         "Java 11",
         "Spring Boot 2.7.14",
@@ -96,6 +97,24 @@
         "Docker",
         "Jenkins",
         "Nginx"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "DQ 업무 자동화",
+      "description": "고객사 요청으로 매일 3시간 이상 소요되던 Data Quality 검수 업무를 n8n과 AI Agent로 자동화했습니다.\n사내 Kubernetes 클러스터에 n8n을 셀프호스팅하고 Microsoft 365 Graph API와 연동했습니다.",
+      "blogUrl": "https://gosiwoo.tistory.com/category/Develop/n8n",
+      "isTeam": false,
+      "period": ["2026. 06", "2026. 07"],
+      "stack": [
+        "n8n",
+        "Kubernetes",
+        "Docker",
+        "NFS",
+        "Cloudflare Tunnel",
+        "Microsoft 365 Graph API",
+        "Azure OAuth2",
+        "Claude"
       ]
     }
   ],

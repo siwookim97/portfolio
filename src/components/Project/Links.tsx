@@ -12,7 +12,7 @@ const Links = ({
   blogUrl,
   videoUrl,
 }: {
-  repoUrl: string;
+  repoUrl: string | undefined;
   webUrl: string | undefined;
   isWebDown?: boolean;
   docsUrl: string | undefined;
@@ -21,9 +21,11 @@ const Links = ({
 }) => {
   return (
     <div className="flex gap-1">
-      <a target="_blank" rel="noreferrer" href={repoUrl} className="w-fit">
-        <GithubIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />
-      </a>
+      {repoUrl && (
+        <a target="_blank" rel="noreferrer" href={repoUrl} className="w-fit">
+          <GithubIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />
+        </a>
+      )}
       {webUrl && isWebDown && (
         <span title="도메인이 만료되어 접속할 수 없습니다" className="relative w-fit opacity-40">
           <WebIcon className="fill-BLACK dark:fill-white" />

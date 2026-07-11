@@ -14,7 +14,7 @@ const ContactItem = ({
   return (
     <a target="_blank" rel="noreferrer" href={isEmail ? `mailto:${href}` : href} className="w-fit">
       <span
-        className={`px-1 text-xs dark:text-GRAY_HEAVY hover:text-BLACK dark:hover:text-BLACK ${className}`}
+        className={`px-2 text-base dark:text-GRAY_HEAVY hover:text-BLACK dark:hover:text-BLACK ${className}`}
       >
         {children}
       </span>

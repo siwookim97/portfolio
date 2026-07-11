@@ -5,6 +5,7 @@ import { NextPage } from "next";
 
 import Activity from "@/components/Activity";
 import Certificate from "@/components/Certificate";
+import Contact from "@/components/Contact";
 import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Information from "@/components/Information";
@@ -32,6 +33,7 @@ const Home: NextPage<DataProps> = ({
       <ResumeTitle resumeTitle={resumeTitle} />
       <Layout>
         <Information information={information} />
+        <Contact information={information} />
         <WorkExperience workExperience={workExperience} />
         <Project project={project} />
         <Activity activity={activity} />

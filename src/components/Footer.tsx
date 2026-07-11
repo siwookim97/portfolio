@@ -4,13 +4,15 @@ const Footer = ({
   contact,
   name,
 }: {
-  contact: { id: number; name: string; href: string; isEmail?: boolean }[];
+  contact: { id: number; name: string; href: string; isEmail?: boolean; isPhone?: boolean }[];
   name: string;
 }) => {
   return (
-    <footer className="flex flex-col gap-2 justify-center items-center bg-GRAY h-28 text-xs text-white dark:bg-GRAY_EXTRAHEAVY dark:text-GRAY_HEAVY">
-      <div className="flex gap-1">
-        {contact.map((contact) => (
+    <footer className="flex flex-col gap-3 justify-center items-center bg-GRAY h-32 text-xs text-white dark:bg-GRAY_EXTRAHEAVY dark:text-GRAY_HEAVY">
+      <div className="flex gap-3">
+        {contact
+          .filter((contact) => !contact.isPhone)
+          .map((contact) => (
           <ContactItem key={contact.id} {...contact}>
             {contact.name}
           </ContactItem>

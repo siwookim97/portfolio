@@ -102,7 +102,7 @@
     {
       "id": 3,
       "name": "DQ 업무 자동화",
-      "description": "고객사 요청으로 매일 3시간 이상 소요되던 Data Quality 검수 업무를 n8n과 AI Agent로 자동화했습니다.\n사내 Kubernetes 클러스터에 n8n을 셀프호스팅하고 Microsoft 365 Graph API와 연동했습니다.",
+      "description": "고객사 요청으로 매주 3시간 이상 소요되던 Data Quality 검수 업무를 n8n과 AI Agent로 자동화하여 30분으로 단축했습니다.\n사내 Kubernetes 클러스터에 n8n을 셀프호스팅하고 Microsoft 365 Graph API와 연동했습니다.",
       "blogUrl": "https://gosiwoo.tistory.com/category/Develop/n8n",
       "isTeam": false,
       "period": ["2026. 06", "2026. 07"],
